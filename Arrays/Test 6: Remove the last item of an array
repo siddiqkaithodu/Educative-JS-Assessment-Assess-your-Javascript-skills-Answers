@@ -1,0 +1,4 @@
+// Modifies the original array
+truncate = function(arr) {
+  arr.pop();
+}
