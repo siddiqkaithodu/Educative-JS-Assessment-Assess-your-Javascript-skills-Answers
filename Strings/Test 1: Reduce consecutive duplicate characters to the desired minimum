@@ -1,0 +1,27 @@
+reduceString = function (str, amount)
+{
+  let count = 1;
+  let j = 0;
+  let stra = str.split("");
+  stra.push(';');//to mark an end or the last consecutive letters dont pass the first else condition:)
+  for (let i = 1; i < stra.length; i++)
+  {
+    if (stra[i] == stra[i - 1])
+    {
+      count++;
+    }
+    else
+    { 
+      j++;
+      if (count > amount)
+      {
+        stra.splice(j, count - amount);
+        i = i - (count - amount);
+        j = i;
+      }
+      count = 1;
+    }
+  }
+  stra.pop();//removing the ';' symbol
+  return (stra.join(""));
+}
