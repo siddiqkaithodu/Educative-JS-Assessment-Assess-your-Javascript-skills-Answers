@@ -1,0 +1,5 @@
+sum = function(arr) {
+  s=0;
+  arr.forEach((e)=>{s+=e});
+  return s;
+}
