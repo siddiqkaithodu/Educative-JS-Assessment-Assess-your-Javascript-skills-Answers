@@ -1,0 +1,4 @@
+// Prepends to the original array
+prepend = function(arr, item) {
+  arr.unshift(item);
+}
