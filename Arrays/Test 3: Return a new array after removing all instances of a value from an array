@@ -1,0 +1,5 @@
+//Returns a new Array
+remove = function(arr, item) {
+arr=arr.filter((e)=>{return e!=item});
+  return arr;
+}
