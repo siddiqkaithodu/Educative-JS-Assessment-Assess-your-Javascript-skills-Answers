@@ -1,0 +1,3 @@
+count = function(arr, item) {
+  return arr.filter((e)=>{return e==item;}).length;
+}
