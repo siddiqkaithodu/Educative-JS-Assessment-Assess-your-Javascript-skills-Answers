@@ -1,0 +1,4 @@
+// Modifies the original array
+curtail = function(arr) {
+  arr.shift();
+}
