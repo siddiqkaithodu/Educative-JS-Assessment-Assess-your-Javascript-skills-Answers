@@ -1,0 +1,5 @@
+// Returns a new array containg both arrays
+concat = function(arr1, arr2) {
+  const arr=arr1.concat(arr2); 
+  return arr;
+}
