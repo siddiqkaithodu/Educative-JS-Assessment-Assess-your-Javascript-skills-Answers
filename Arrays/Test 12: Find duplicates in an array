@@ -1,0 +1,5 @@
+// return all elements that occur more than once
+duplicates = function(arr) {
+  return Array.from(new Set(arr.filter((e,index)=>{
+    return arr.indexOf(e)!=index;})));
+}
