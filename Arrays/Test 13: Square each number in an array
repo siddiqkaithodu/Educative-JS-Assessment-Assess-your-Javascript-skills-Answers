@@ -1,0 +1,4 @@
+// return a new array with each item squared
+square = function(arr) {
+  return arr.map((e)=>{return e*e;});
+}
