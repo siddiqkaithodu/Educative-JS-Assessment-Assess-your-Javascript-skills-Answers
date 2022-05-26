@@ -1,0 +1,3 @@
+indexOf = function(arr, item) {
+  return arr.indexOf(item);
+}
