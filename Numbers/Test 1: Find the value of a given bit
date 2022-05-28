@@ -1,0 +1,7 @@
+valueAtBit = function(num, bit) {
+let num_bin=num.toString(2);
+let len=num_bin.length;
+  if (bit>len)
+    return 0;
+return num_bin[(len)-bit];
+}
