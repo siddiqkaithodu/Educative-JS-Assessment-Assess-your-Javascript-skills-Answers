@@ -1,0 +1,3 @@
+reverseString = function(str) {
+ return [...str].reverse().join("");
+}
