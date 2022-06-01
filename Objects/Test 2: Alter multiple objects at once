@@ -1,0 +1,9 @@
+// Add the greeting field to all objects
+// created by the constructor
+alterObjects = function(constructor, greeting) {
+  constructor.prototype.greeting=greeting;
+}
+
+
+
+
