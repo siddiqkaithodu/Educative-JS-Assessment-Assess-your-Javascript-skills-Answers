@@ -1,0 +1,14 @@
+// Return a string of object's own properties in 
+// the following format
+// [ 'foo: bar', 'baz: bim' ]
+iterate = function(obj) {
+  props=[];
+  for(prop in obj)
+    {
+      if(obj.hasOwnProperty(prop))
+        {
+          props.push(prop+': '+obj[prop]);
+        }
+    }
+  return props;
+}
