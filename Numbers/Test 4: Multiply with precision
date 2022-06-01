@@ -1,4 +1,4 @@
-  multiply: function(a, b) { 
+  multiply=function(a, b) { 
      a = adjust(a); 
      b = adjust(b); 
   
